@@ -36,363 +36,53 @@ Figma
 ## CODE:
 page 1:
 ```
-HTML
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saveetha Engineering College Sports Day</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="header-content">
-      <h1>SAVEETHA ENGINEERING COLLEGE</h1>
-      <p>Autonomous  TNEA CODE 1216</p>
-      <p>AAICTE Affliated Asi˹..˺</p>
-    </div>
-  </header>
-  <main>
-    <div class="main-content">
-      <h2>SPORTS DAY</h2>
-      <div class="register-login">
-        <a href="#">REGISTER</a>
-        <a href="#">LOGIN</a>
-      </div>
-    </div>
-  </main>
-</body>
-</html>
-
-CSS
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-}
-
-header {
-  background-color: #003399;
-  color: #fff;
-  padding: 20px;
-}
-
-.header-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 0.8em;
-  margin-bottom: 5px;
-}
-
-main {
-  padding: 40px;
-}
-
-.main-content {
-  text-align: center;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
-.register-login {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-  margin: 0 auto;
-}
-
-a {
-  color: #003399;
-  text-decoration: none;
-  font-size: 1em;
-  padding: 10px 20px;
-  border: 1px solid #003399;
-  border-radius: 5px;
-}
-
-a:hover {
-  background-color: #003399;
-  color: #fff;
-}
+<img style="width: 337px; height: 50px" src="https://via.placeholder.com/337x50" />
+<div style="width: 215px; height: 40px; background: #FEFFFE"></div>
+<div style="width: 208px; height: 43px; color: black; font-size: 32px; font-family: Inter; font-weight: 700; word-wrap: break-word">   REGISTER</div>
+<img style="width: 139px; height: 141px; transform: rotate(180deg); transform-origin: 0 0" src="https://via.placeholder.com/139x141" />
+<img style="width: 371px; height: 668px; border-radius: 43px" src="https://via.placeholder.com/371x668" />
+<div style="width: 213px; height: 37px; background: #D9D9D9"></div>
+<div style="width: 212px; height: 46px; color: black; font-size: 32px; font-family: Inter; font-weight: 700; word-wrap: break-word">      LOGIN</div>
 ```
 PAGE 2:
 ```
-HTML
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Events</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="header-content">
-      <h1>EVENTS</h1>
-    </div>
-  </header>
-  <main>
-    <div class="event-list">
-      <ul>
-        <li>Cricket</li>
-        <li>Tennis</li>
-        <li>Volleyball</li>
-        <li>Table Tennis</li>
-        <li>Baseball</li>
-        <li>Field Hockey</li>
-      </ul>
-    </div>
-  </main>
-</body>
-</html>
-
-CSS
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-}
-
-header {
-  background-color: #2980b9;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.header-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 0;
-}
-
-main {
-  padding: 40px;
-}
-
-.event-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-li {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
+<div style="width: 360px; height: 640px; position: relative; background: #387E36">
+  <img style="width: 1145px; height: 667px; left: -785px; top: 0px; position: absolute" src="https://via.placeholder.com/1145x667" />
+  <div style="width: 266px; height: 73px; left: 53px; top: 21px; position: absolute; color: black; font-size: 40px; font-family: Inter; font-weight: 700; word-wrap: break-word">     EVENTS</div>
+  <div style="width: 226px; height: 190px; left: 124px; top: 172px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 226px; height: 194px; left: 124px; top: 168px; position: absolute; color: black; font-size: 22px; font-family: Inter; font-weight: 700; word-wrap: break-word">Cricket: ...<br/>Field Hockey: ...<br/>Tennis: ...<br/>Volleyball: ...<br/>Table Tennis: ...<br/>BasebalI:...</div>
+</div>```
 
 ```
 PAGE 3:
 ```
-HTML
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Event Registration Form</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="header-content">
-      <img src="soccer_ball.jpg" alt="Soccer Ball">
-      <h1>EVENTS FORM</h1>
-    </div>
-  </header>
-  <main>
-    <div class="registration-form">
-      <form action="/action_page.php" method="post">
-        <div class="form-group">
-          <label for="name">NAME:</label>
-          <input type="text" id="name" name="name" placeholder="Your Name">
-        </div>
-        <div class="form-group">
-          <label for="gender">GENDER:</label>
-          <select id="gender" name="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="age">AGE:</label>
-          <input type="number" id="age" name="age" placeholder="Your Age">
-        </div>
-        <div class="form-group">
-          <label for="regno">REG.NO:</label>
-          <input type="text" id="regno" name="regno" placeholder="Registration Number">
-        </div>
-        <div class="form-group">
-          <label for="sport">SPORT NAME:</label>
-          <select id="sport" name="sport">
-            <option value="cricket">Cricket</option>
-            <option value="hockey">Hockey</option>
-            <option value="tennis">Tennis</option>
-            <option value="volleyball">Volleyball</option>
-            <option value="tabletennis">Table Tennis</option>
-            <option value="baseball">Baseball</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="branch">BRANCH & DEPT:</label>
-          <input type="text" id="branch" name="branch" placeholder="Branch & Department">
-        </div>
-        <div class="form-group">
-          <button type="submit">REGISTER</button>
-        </div>
-      </form>
-    </div>
-  </main>
-</body>
-</html>
-
-CSS
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-}
-
-header {
-  background-color: #2980b9;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-}
-
-header img {
-  width: 100px;
-  margin-right: 20px;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 0;
-}
-
-main {
-  padding: 40px;
-}
-
-.registration-form {
-  width: 400px;
-  margin: 0 auto;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input,
-select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-button {
-  background-color: #2980b9;
-  color: #fff;
-  padding: 10px 
-}
+<div style="width: 405px; height: 651px; position: relative; background: white">
+  <img style="width: 415px; height: 651px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/415x651" />
+  <div style="width: 200px; height: 40px; left: 19px; top: 148px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 200px; height: 40px; left: 19px; top: 486px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 200px; height: 40px; left: 19px; top: 421px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 200px; height: 40px; left: 19px; top: 215px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 200px; height: 40px; left: 19px; top: 284px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 200px; height: 40px; left: 19px; top: 356px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 180px; height: 69px; left: 110px; top: 558px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 391px; height: 101px; left: 0px; top: 17px; position: absolute; color: #F4FFF4; font-size: 40px; font-family: Inter; font-weight: 700; word-wrap: break-word">EVENTS FORM<br/>REG:</div>
+  <div style="width: 201px; height: 40px; left: 40px; top: 144px; position: absolute"><span style="color: black; font-size: 40px; font-family: Inter; font-weight: 700; word-wrap: break-word">    </span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">NAME</span></div>
+  <div style="width: 201px; height: 44px; left: 38px; top: 211px; position: absolute"><span style="color: black; font-size: 40px; font-family: Inter; font-weight: 700; word-wrap: break-word">    </span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">GENDER</span></div>
+  <div style="width: 201px; height: 40px; left: 40px; top: 292px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">           AGE</div>
+  <div style="width: 200px; height: 38px; left: 19px; top: 369px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">           REG.NO</div>
+  <div style="width: 201px; height: 36px; left: 2px; top: 436px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">           SPORT NAME</div>
+  <div style="width: 196px; height: 34px; left: 43px; top: 472px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">          BRANCH&DEPT</div>
+  <div style="width: 300px; height: 70px; left: 110px; top: 571px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 700; word-wrap: break-word">REGISTER</div>
+</div>
 ```
 PAGE 4:
 ```
-HTML
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You Card</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="card">
-    <h1>SAVEETHA ENGINEERING COLLEGE</h1>
-    <p>Thank You!</p>
-  </div>
-</body>
-</html>
-
-CSS
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #2980b9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.card {
-  background-color: #fff;
-  padding: 50px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 1.5em;
-}
-
+<div style="width: 376px; height: 664px; position: relative; background: white">
+  <img style="width: 759px; height: 664px; left: -168px; top: 0px; position: absolute" src="https://via.placeholder.com/759x664" />
+  <img style="width: 332.44px; height: 50px; left: 22px; top: 20px; position: absolute" src="https://via.placeholder.com/332x50" />
+  <div style="width: 376px; height: 97px; left: 0px; top: 567px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 376px; height: 95px; left: 0px; top: 569px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 700; word-wrap: break-word">    FOR CONTACT:<br/>        EMAIL:SAVEETHAENGINEERING@GMAIL.COM<br/>        CALL:<br/>                    8903445500<br/>                    8765439877<br/><br/></div>
+</div>
 ```
 ## OUTPUT:
 ![alt text](<Screenshot 2024-05-06 000849.png>)
